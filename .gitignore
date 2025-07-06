@@ -1,0 +1,17 @@
+# IDE specific ignores (for JetBrains IDEs like PyCharm)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Python specific ignores
+__pycache__/
+*.pyc
+.venv/             # Add this if your virtual environment is named .venv
+
+# Operating System specific ignores
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# IMPORTANT: Do NOT ignore the .gitignore file itself!
+!.gitignore
